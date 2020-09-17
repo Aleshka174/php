@@ -7,3 +7,29 @@
     text-align: end;
     font-size: x-large;
 }
+
+.row > input {
+	background-color: DarkGray;
+	color: azure;
+}
+
+.card-body {
+	background-color: BurlyWood;
+}
+
+.col> button {
+	background-color: Skyblue;
+	color: black;
+}
+
+.col {
+	margin: 5px;
+}
+
+.buttonC > button {
+	background-color: Chocolate;
+}
+
+input {
+	margin: 5px 0;
+}
