@@ -14,29 +14,46 @@
         <div class="col col-md-4 offset-md-4">
             <div class="card text-center">
                 <div class="card-header">
-                    <p class="m-0">Вопрос №<span id="orderNumberField">5</span></p>
+                    <p class="m-0"><span id=windowText>Игра угадайка!!!</span></p>
                 </div>
-                <div class="card-body">
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <h3 class="card-title m-0"><span id="answerField">Вы загадали число 5?</span></h3>
+                <div class="card-header">
+                    <div class="input ">
+                        <input class="form-control" id="inputWindowMin"  placeholder="Введите минимальное число" value="">
+                        <input class="form-control" id="inputWindowMax"  placeholder="Введите максимальное число" value="">
+                    </div>
+                    <div class="input-group-append align-items-center">
+                        <button class="btn btn-info btn-lg btn-block" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="#collapseExample" type="button" id="btnOk">Старт</button>
+                    </div>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card-header">
+                        <p class="m-0">Вопрос №<span id="orderNumberField">5</span></p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row no-gutters">
+                            <div class="col">
+                                <h3 class="card-title m-0"><span id="answerField">Вы загадали число 5?</span></h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card-body">
-                    <div class="btn-group">
-                        <button class="btn btn-info" id="btnLess">&#129047;<br>меньше</button>
-                        <button class="btn btn-success btn-lg" id="btnEqual">Верно!</button>
-                        <button class="btn btn-info" id="btnOver">больше<br>&#129045;</button>
+                    <div class="card-body">
+                        <div class="btn-group">
+                            <button class="btn btn-info" id="btnLess">Меньше<br>&#129047;</button>
+                            <button class="btn btn-success btn-lg" id="btnEqual">Верно!</button>
+                            <button class="btn btn-info" id="btnOver">Больше<br>&#129045;</button>
+                        </div>
                     </div>
-                </div>
-                <div class="card-footer">
-                    <button class="btn btn-link" id="btnRetry">Заново</button>
+                    <div class="card-footer">
+                        <button class="btn" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="#collapseExample" id="btnRetry">Попробывать<br> еще раз!</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
