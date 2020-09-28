@@ -2,3 +2,24 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+.card {
+	background-color: khaki;
+}
+
+.btn {
+	margin: 10px;
+}
+
+.card-footer {
+	background-color: brown;
+}
+
+.card-footer > .btn{
+	color: white;
+	font-size: 28px;
+}
+
+.card-header > btn {
+	weight: 100%;
+}
