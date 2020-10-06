@@ -1,0 +1,13 @@
+.card {
+	background-color: Khaki;
+}
+
+.card-header {
+	background-color: goldenrod;
+	color: white;
+	font-size: 28px;
+}
+
+.btn-group {
+	margin: 5px;
+}
